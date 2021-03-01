@@ -1,0 +1,7 @@
+/* Importing base styles from base.css file */
+@import "base.css";
+
+h1 {
+  color: var(--accent-color);
+  font-family: var(--fonts);
+}

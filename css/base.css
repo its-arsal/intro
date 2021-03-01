@@ -1,0 +1,12 @@
+/* This file contains some base styling for the page */
+
+/* Site colors */
+:root {
+  --accent-color: teal;
+  --fonts: "comfortaa", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
