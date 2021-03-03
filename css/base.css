@@ -1,12 +1,84 @@
 /* This file contains some base styling for the page */
 
-/* Site colors */
+/* Styles for the whole page */
 :root {
-  --accent-color: teal;
-  --fonts: "comfortaa", sans-serif;
+  --accent-color: #22c1c3;
 }
 
+/* a bunch of resets */
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* Utility Classes:
+ *
+ * I know it seems stupid, but I got used to do this in Sass,
+ * So I wasn't sure how to do it in CSS. Then, I tried to make it
+ * as one-liners but Prettier keep on re-formatting it. So...
+*/
+
+/* for margin */
+
+.m1 {
+  margin: 1rem;
+}
+
+.m2 {
+  margin: 2rem;
+}
+
+.m3 {
+  margin: 3rem;
+}
+
+.m4 {
+  margin: 4rem;
+}
+
+.m5 {
+  margin: 5rem;
+}
+
+.m6 {
+  margin: 6rem;
+}
+
+/* for padding */
+
+.p1 {
+  padding: 1rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.p3 {
+  padding: 3rem;
+}
+
+.p4 {
+  padding: 4rem;
+}
+
+.p5 {
+  padding: 5rem;
+}
+
+.p6 {
+  padding: 6rem;
 }
